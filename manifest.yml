@@ -5,7 +5,7 @@ applications:
   instances: 1
   memory: 896M
   buildpacks: 
-    - sap_java_buildpack
+    - sap_java_buildpack_jakarta
   routes:
     - route: task-management-((ID)).cfapps.((REGION_HOST))
   path: task-management-app/target/task-management-app.jar
